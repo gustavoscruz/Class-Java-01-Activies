@@ -5,7 +5,7 @@ abstract public class AnimalAB implements AnimalIF{
     private int quantidadePercorrida = 0;
     private int quantidadeDormida = 0;
 
-    public AnimalAB(){
+    public AnimalAB() {
     }
 
     public int getQuantidadeDeComida() {
@@ -32,15 +32,15 @@ abstract public class AnimalAB implements AnimalIF{
         this.quantidadeDormida = quantidadeDormida;
     }
 
-    public void comer(int quantidadeDeComida){
-        this.quantidadeDeComida += quantidadeDeComida;
+    public void comer(){
+        quantidadeDeComida ++;
     };
 
-    public void mover(int quantidadeDePercorrida){
-        this.quantidadePercorrida += quantidadePercorrida;
+    public void mover(){
+        quantidadePercorrida ++;
     };
 
-    public void dormir(int quantidadeDormidan){
-        this.quantidadeDormida += quantidadeDormida;
+    public void dormir(){
+        quantidadeDormida++;
     };
 }
