@@ -35,9 +35,11 @@ abstract public class AnimalAB implements AnimalIF{
     public void comer(int quantidadeDeComida){
         this.quantidadeDeComida += quantidadeDeComida;
     };
+
     public void mover(int quantidadeDePercorrida){
         this.quantidadePercorrida += quantidadePercorrida;
     };
+
     public void dormir(int quantidadeDormidan){
         this.quantidadeDormida += quantidadeDormida;
     };
